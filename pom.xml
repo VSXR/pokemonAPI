@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>dis.ufv.pokemonRestAPI</groupId>
 	<artifactId>pokemonAPI</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>pokemonAPI</name>
 	<description>Ejemplo de API REST con Pokemon</description>
 	<url/>
@@ -39,6 +39,18 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.10</version>
 		</dependency>
 	</dependencies>
 
